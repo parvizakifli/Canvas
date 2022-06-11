@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas{
+   background-color: aquamarine;
+   border-radius: 2em;
+   
+   box-shadow: 5px 5px 15px 5px #000000;
+    
+}
+.save_btn{
+    width: 200px;
+    padding: 15px;
+    font-size: 25px;
+    border: none;
+    border-radius: 2em;
+    box-shadow: 2px 5px 24px 13px #3d2121;
+}
+
+p{
+    font-size: 25px;
+    color: wheat;
+}
+.container{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.container>div{
+    margin-bottom: 20px;
+}
